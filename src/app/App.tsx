@@ -1,9 +1,10 @@
 import { RouterProvider } from 'react-router-dom';
-import './app/styles/app.css';
-import { router } from './providers/routes/config/route-config';
+import './styles/app.css';
+
 import { Suspense } from 'react';
-import { useTheme } from './shared/theme/use-theme.ts';
-import { classNames } from './shared/helpers/class-names.ts';
+import { useTheme } from '@/app/providers/theme-provider';
+import { classNames } from '@/shared/lib/class-names.ts';
+import { router } from '@/app/providers/routes/config/route-config.tsx';
 
 
 function App() {

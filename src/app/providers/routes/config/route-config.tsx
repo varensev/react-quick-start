@@ -1,6 +1,7 @@
 import { Link, Outlet, createBrowserRouter } from 'react-router-dom';
-import { Main } from '../../../pages/main';
-import { About } from '../../../pages/about';
+import { Main } from '@pages/main';
+import { About } from '@pages/about';
+
 
 export const router = createBrowserRouter([
   {
